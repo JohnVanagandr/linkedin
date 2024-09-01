@@ -55,9 +55,50 @@
                 </a>  
               </li>
             </ul>
-            <div class="online">
-              <img src="images/user-1.png" alt="user" class="navigation__profile">
+            <div class="profile">
+              <div class="online">
+                <img src="images/user-1.png" alt="user" class="navigation__profile">
+              </div>
+              <!-- Profile drop-down menu -->
+              <div class="profile-menu-wrap" id="profielMenu">
+                <div class="profile-menu">
+                  <div class="user-info">
+                    <img src="images/user-1.png">
+                    <div>
+                      <h3>Rayan Walton</h3>
+                      <a href="profile.html">Seeyour profile</a>
+                    </div>
+                  </div>
+                  <hr>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feebdack</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessiblity</p>
+                    <span>></span>
+                  </a>
+                  <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                  </a>
+                </div>
+              </div>
             </div>
+            
           </nav>
         </div>
       </div>
@@ -67,45 +108,45 @@
 
       <!-- Left Sidebar -->
       <aside class="sidebar">
-        <div class="sidebar-profile-box">
-          <img src="images/cover-pic.png" width="100%">
-          <div class="sidebar-profile-info">
-            <img src="images/user-1.png">
-            <h1>John Vanagandr</h1>
-            <h3>Web Developer</h3>
-            <ul>
-              <li>Your profile views <span>52</span></li>
-              <li>Your post views <span>810</span></li>
-              <li>Your connections <span>205</span></li>
-            </ul>
+          <div class="sidebar-profile-box">
+            <img src="images/cover-pic.png" width="100%">
+            <div class="sidebar-profile-info">
+              <img src="images/user-1.png">
+              <h1>John Vanagandr</h1>
+              <h3>Web Developer</h3>
+              <ul>
+                <li>Your profile views <span>52</span></li>
+                <li>Your post views <span>810</span></li>
+                <li>Your connections <span>205</span></li>
+              </ul>
+            </div>
+            <div class="sidebar-profile-link">
+              <a href="#"><img src="images/items.png">My items</a>
+              <a href="#"><img src="images/premium.png">Try Premium</a>
+            </div>
           </div>
-          <div class="sidebar-profile-link">
-            <a href="#"><img src="images/items.png">My items</a>
-            <a href="#"><img src="images/premium.png">Try Premium</a>
-          </div>
-        </div>
 
-        <div class="sidebar-activity">
-          <h3>RECENT</h3>
-          <a href="#"><img src="images/recent.png"> Web Developer </a>
-          <a href="#"><img src="images/recent.png"> User Interface </a>
-          <a href="#"><img src="images/recent.png"> Online Learning </a>
-          <a href="#"><img src="images/recent.png"> Learn Online </a>
-          <a href="#"><img src="images/recent.png"> Code Better </a>
-          <a href="#"><img src="images/recent.png"> Group Learning </a>
-          <h3>GROUPS</h3>
-          <a href="#"><img src="images/group.png"> Web Desing Groups </a>
-          <a href="#"><img src="images/group.png"> HTML & CSS Learners </a>
-          <a href="#"><img src="images/group.png"> Python & JavaScript Group </a>
-          <a href="#"><img src="images/group.png"> Learn Coding Online </a>
-          <h3>HASHTAG</h3>
-          <a href="#"><img src="images/hashtag.png"> webdevelopment </a>
-          <a href="#"><img src="images/hashtag.png"> userinterface </a>
-          <a href="#"><img src="images/hashtag.png"> onlinelearning </a>
-          <div class="discover-more-link">
-            <a href="#">Discover more</a>
+          <div class="sidebar-activity">
+            <h3>RECENT</h3>
+            <a href="#"><i class='bx bx-time'></i> Web Developer </a>
+            <a href="#"><i class='bx bx-time'></i> User Interface </a>
+            <a href="#"><i class='bx bx-time'></i> Online Learning </a>
+            <a href="#"><i class='bx bx-time'></i> Learn Online </a>
+            <a href="#"><i class='bx bx-time'></i> Code Better </a>
+            <a href="#"><i class='bx bx-time'></i> Group Learning </a>
+            <h3>GROUPS</h3>
+            <a href="#"><i class='bx bx-male-female'></i> Web Desing Groups </a>
+            <a href="#"><i class='bx bx-male-female'></i> HTML & CSS Learners </a>
+            <a href="#"><i class='bx bx-male-female'></i> Python & JavaScript Group </a>
+            <a href="#"><i class='bx bx-male-female'></i> Learn Coding Online </a>
+            <h3>HASHTAG</h3>
+            <a href="#"><i class='bx bx-hash'></i> webdevelopment </a>
+            <a href="#"><i class='bx bx-hash'></i> userinterface </a>
+            <a href="#"><i class='bx bx-hash'></i> onlinelearning </a>
+            <div class="discover-more-link">
+              <a href="#">Discover more</a>
+            </div>
           </div>
-        </div>
       </aside>
 
       <!-- Main Content-->
@@ -117,10 +158,185 @@
             <textarea rows="2" placeholder="Write a post"></textarea>
           </div>
           <div class="create-post-links">
-            <li><img src="images/photo.png">Photo</li>
-            <li><img src="images/video.png">Video</li>
-            <li><img src="images/event.png">Event</li>
-            <li>Post</li>
+            <li>
+              <a href="#">
+              <i class='bx bxs-camera'></i>
+              <span>Photo</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bxs-video'></i>
+                <span>Video</span>
+                </a>
+              </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-merge'></i>
+                <span>Event</span>
+              </a>
+              </li>
+            <li>
+              <a href="#">Post</a>
+            </li>
+          </div>
+        </div>
+
+        <div class="short-by">
+          <hr>
+          <p>Short by: <span>top <img src="images/down-arrow.png"></span></p>
+        </div>
+
+        <div class="post">
+          <div class="posts-author">
+            <img src="images/user-3.png">
+            <div>
+              <h1>Banjamin Leo</h1>
+              <small>Founder and CEO at Gallelio Gruop | Angel Inversor</small>
+              <small>2 Hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste possimus corporis impedit nisi minus odio illo ea quidem fuga praesentium reiciendis delectus, non, itaque molestias aliquam distinctio enim harum excepturi consequatur eos temporibus? Esse, repellendus fugiat. Aliquam, eos. Fugiat natus doloribus, mollitia odio distinctio nobis sit doloremque numquam veniam iusto.
+          </p>
+          <img src="images/post-image-1.png" width="100%">
+
+          <div class="post-stats">
+            <div>
+              <div class="post-stats-info">
+                <img src="images/thumbsup.png">
+                <img src="images/love.png">
+                <img src="images/clap.png">
+              </div>
+              <span class="liked-users">Abhinav mishra and 75 others</span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon">
+              <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png">
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png">
+              <span>Commenst</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png">
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png">
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="posts-author">
+            <img src="images/user-1.png">
+            <div>
+              <h1>Clarence George</h1>
+              <small>Founder and CEO at Gallelio Gruop | Angel Inversor</small>
+              <small>2 Hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste possimus corporis impedit nisi minus odio illo ea quidem fuga praesentium reiciendis delectus, non, itaque molestias aliquam distinctio enim harum excepturi consequatur eos temporibus? Esse, repellendus fugiat. Aliquam, eos. Fugiat natus doloribus, mollitia odio distinctio nobis sit doloremque numquam veniam iusto.
+          </p>
+          <img src="images/post-image-2.png" width="100%">
+
+          <div class="post-stats">
+            <div>
+              <div class="post-stats-info">
+                <img src="images/thumbsup.png">
+                <img src="images/love.png">
+                <img src="images/clap.png">
+              </div>
+              <span class="liked-users">Abhinav mishra and 75 others</span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon">
+              <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png">
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png">
+              <span>Commenst</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png">
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png">
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="posts-author">
+            <img src="images/user-2.png">
+            <div>
+              <h1>Santamaria</h1>
+              <small>Founder and CEO at Gallelio Gruop | Angel Inversor</small>
+              <small>2 Hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste possimus corporis impedit nisi minus odio illo ea quidem fuga praesentium reiciendis delectus, non, itaque molestias aliquam distinctio enim harum excepturi consequatur eos temporibus? Esse, repellendus fugiat. Aliquam, eos. Fugiat natus doloribus, mollitia odio distinctio nobis sit doloremque numquam veniam iusto.
+          </p>
+          <img src="images/post-image-3.png" width="100%">
+
+          <div class="post-stats">
+            <div>
+              <div class="post-stats-info">
+                <img src="images/thumbsup.png">
+                <img src="images/love.png">
+                <img src="images/clap.png">
+              </div>
+              <span class="liked-users">Abhinav mishra and 75 others</span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user-1.png" class="post-activity-user-icon">
+              <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+            </div>
+            <div class="post-activity-link">
+              <img src="images/like.png">
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/comment.png">
+              <span>Commenst</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share.png">
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send.png">
+              <span>Send</span>
+            </div>
           </div>
         </div>
 
@@ -128,53 +344,56 @@
 
       <!-- Rigth Sidebar -->
       <aside class="aside">
-        <div class="sidebar-news">
-          <img src="images/more.png" class="info-icon">
-          <h3>Trending News</h3>
-          <a href="#">High demand for skilled manpower</a>
-          <span>1d ago &middot; 10,934 readers</span>
+        
+          <div class="sidebar-news">
+            <img src="images/more.png" class="info-icon">
+            <h3>Trending News</h3>
+            <a href="#">High demand for skilled manpower</a>
+            <span>1d ago &middot; 10,934 readers</span>
 
-          <a href="#">Careers growing horizontally too</a>
-          <span>1d ago &middot; 10,532 readers</span>
+            <a href="#">Careers growing horizontally too</a>
+            <span>1d ago &middot; 10,532 readers</span>
 
-          <a href="#">Lees work visa for US, more for UK</a>
-          <span>1d ago &middot; 10,451 readers</span>
+            <a href="#">Lees work visa for US, more for UK</a>
+            <span>1d ago &middot; 10,451 readers</span>
 
-          <a href="#">More hiring = higrher confidence?</a>
-          <span>1d ago &middot; 10,122 readers</span>
+            <a href="#">More hiring = higrher confidence?</a>
+            <span>1d ago &middot; 10,122 readers</span>
 
-          <a href="#">Gautam Adani is the word´s third richest</a>
-          <span>1d ago &middot; 10,011 readers</span>
+            <a href="#">Gautam Adani is the word´s third richest</a>
+            <span>1d ago &middot; 10,011 readers</span>
 
-          <a href="#" class="read-more-link">Read more</a>
-        </div>
-
-        <div class="sidebra-ad">
-          <small>Ad &middot; &middot; &middot;</small>
-          <p>Master teh 5 principles of web desing</p>
-          <div>
-            <img src="images/user-1.png">
-            <img src="images/mi-logo.png">
+            <a href="#" class="read-more-link">Read more</a>
           </div>
-          <b>Brand and Demand in Xiaomi</b>
-          <a href="#" class="ad-link">Learn more</a>
-        </div>
 
-        <div class="sidebar-userful-links">
-          <a href="#">About</a>
-          <a href="#">Accessiblity</a>
-          <a href="#">Help Center</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Advertising</a>
-          <a href="#">Get the App</a>
-          <a href="#">More</a>
-          <div class="copyright-msg">
-            <img src="images/logo.webp">
-            <p>Linkedup &#169; 2022. All right reserved</p>
+          <div class="sticky">
+            <div class="sidebra-ad">
+              <small>Ad &middot; &middot; &middot;</small>
+              <p>Master teh 5 principles of web desing</p>
+              <div>
+                <img src="images/user-1.png">
+                <img src="images/mi-logo.png">
+              </div>
+              <b>Brand and Demand in Xiaomi</b>
+              <a href="#" class="ad-link">Learn more</a>
+            </div>
+
+            <div class="sidebar-userful-links">
+              <a href="#">About</a>
+              <a href="#">Accessiblity</a>
+              <a href="#">Help Center</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Advertising</a>
+              <a href="#">Get the App</a>
+              <a href="#">More</a>
+              <div class="copyright-msg">
+                <img src="images/logo.webp">
+                <p>Linkedup &#169; 2022. All right reserved</p>
+              </div>
+            </div>
           </div>
-        </div>
       </aside>
     </div>
-
+    <script src="app.js"></script>
 </body>
 </html>
