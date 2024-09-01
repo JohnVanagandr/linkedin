@@ -998,7 +998,7 @@ media query for small screen
   }
 
   .navigation__link {
-    min-width: 50px;
+    min-width: 45px;
   }
 
   .navigation__span {
@@ -1015,7 +1015,14 @@ media query for small screen
     padding-top: calc(52px + 20px);
   }
 
-  .content-profile {
+  .post-activity-link {
+    flex-direction: column;
+  }
+
+  .post-activity-link img{
+    margin-right: 0;
+  }
+   .content-profile {
     grid-template-columns: 1fr;
     grid-template-areas:
       'profile-main'
